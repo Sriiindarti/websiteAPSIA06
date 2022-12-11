@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 :root {
       --semiBlack: #222222;
@@ -40,16 +41,19 @@ body {
 /* ------------- Navbar ------------- */
 
 .navbar {
+      font-family: 'Poppins', sans-serif;
       font-size: 15px;
       background-color: var(--semiBlack);
 }
 
 .nav-item {
+      font-family: 'Poppins', sans-serif;
       margin: 0px 16px;
       color: var(--white);
 }
 
 li{
+      font-family: 'Poppins', sans-serif;
       margin: 0px 16px;
       color: var(--white);
 }
@@ -66,6 +70,7 @@ li{
 }
 
 .btnn {
+      font-family: 'Poppins', sans-serif;
       font-size: 15px;
       width: 120px;
       height: 56px;
@@ -98,6 +103,7 @@ li{
 }
 
 .btn10 {
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-weight: 600;
       width: 160px;
@@ -110,7 +116,7 @@ li{
 }
 
 .title0 {
-      font-family: 'Poppins';
+      font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 130px;
@@ -120,7 +126,7 @@ li{
 }
 
 .paragraf3{
-      font-family: 'Poppins';
+      font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 28px;
@@ -151,7 +157,7 @@ li{
 
 .card-title{
       color: var(--semiBlack);
-      font-family: 'Montserrat';
+      font-family: 'Poppins', sans-serif;
       font-style: bold;
       font-weight: 700;
       font-size: 20px;
@@ -159,20 +165,21 @@ li{
 
 .harga{
       color: var(--red);
-      font-family: 'Montserrat';
+      font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
 }
 
 .card-body{
+      font-family: 'Poppins', sans-serif;
       margin-top: 16px;
       background-color: var(--softGrey);
       border-radius: 24px;
 }
 
 .title2 {
-      font-family: 'Poppins';
+      font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 40px;
@@ -192,6 +199,7 @@ li{
 }
 
 .profil{
+      font-family: 'Poppins', sans-serif;
       font-size: 16px; 
       color: var(--white);
       margin: 4px;
@@ -199,6 +207,7 @@ li{
 }
 
 .profil:hover{
+      font-family: 'Poppins', sans-serif;
       font-size: 16px; 
       color: var(--white);
       margin: 4px;
@@ -211,6 +220,7 @@ li{
 /* ------------- Footer ------------- */
 
 footer{
+      font-family: 'Poppins', sans-serif;
       background-color: var(--semiBlack);
       color: var(--white);
 }
@@ -240,12 +250,14 @@ footer{
 }
 
 .headingFoot{
+      font-family: 'Poppins', sans-serif;
       font-size: 20px;
       margin-bottom: 20px;
       font-weight: 600;
 }
 
 .contentFoot{
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-weight: 200;
       color: var(--white);
